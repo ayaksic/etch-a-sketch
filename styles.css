@@ -9,7 +9,6 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	display: block;
-	overflow: auto;
 	border: 1px solid black;
 }
 
@@ -24,8 +23,6 @@ body {
 }
 
 div div {
-	width: 40px;
-	height: 40px;
 	margin: 0;
 	padding: 0;
 	display: inline-block;

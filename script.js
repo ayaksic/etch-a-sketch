@@ -10,8 +10,7 @@ function drawGrid() {
 
 function etchSketch() {
 	$("div div").mouseenter(function(){
-		var classNum = parseInt($(this).attr("class").substring(6),10);
-		var newClass = classNum+1;
+		var newClass = parseInt($(this).attr("class").substring(6),10)+1;
 		if(newClass<11){
 			$(this).removeClass().addClass("square" + newClass);
 		};
